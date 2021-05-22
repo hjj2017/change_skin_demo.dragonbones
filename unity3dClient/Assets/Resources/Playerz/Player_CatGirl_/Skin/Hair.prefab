@@ -71,7 +71,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &2477996276149245067
 MeshFilter:
@@ -152,7 +152,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &5041487480708477737
 MeshFilter:
@@ -254,6 +254,7 @@ GameObject:
   - component: {fileID: 8246380728581757511}
   - component: {fileID: 8246380728581757508}
   - component: {fileID: 8246380728581757509}
+  - component: {fileID: 5322042575477673052}
   m_Layer: 0
   m_Name: Hair
   m_TagString: Untagged
@@ -297,7 +298,7 @@ MonoBehaviour:
   animationName: 
   _playTimes: 0
   _timeScale: 1
-  _sortingMode: 0
+  _sortingMode: 1
   _sortingLayerName: Default
   _sortingOrder: 0
   _zSpace: 0
@@ -321,3 +322,14 @@ MonoBehaviour:
   - Slot_Hair_0_
   - Slot_Hair_2_
   dirty: 0
+--- !u!210 &5322042575477673052
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8246380728581757514}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

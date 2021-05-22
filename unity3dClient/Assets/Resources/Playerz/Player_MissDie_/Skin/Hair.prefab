@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1014223863611805194
+--- !u!1 &2214851889355823061
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,23 +8,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5140013533198110821}
-  - component: {fileID: 5009234166956517195}
-  - component: {fileID: 3350016187615392299}
+  - component: {fileID: 6229704764661789903}
+  - component: {fileID: 6493874187553718787}
+  - component: {fileID: 1255653639026469818}
   m_Layer: 0
   m_Name: Slot_Hair_2_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &5140013533198110821
+  m_IsActive: 1
+--- !u!4 &6229704764661789903
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014223863611805194}
+  m_GameObject: {fileID: 2214851889355823061}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.002}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,13 +32,13 @@ Transform:
   m_Father: {fileID: 3527791176232070798}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &5009234166956517195
+--- !u!23 &6493874187553718787
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014223863611805194}
+  m_GameObject: {fileID: 2214851889355823061}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -71,17 +71,17 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &3350016187615392299
+--- !u!33 &1255653639026469818
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014223863611805194}
+  m_GameObject: {fileID: 2214851889355823061}
   m_Mesh: {fileID: 0}
---- !u!1 &1122397106974297618
+--- !u!1 &2289801140156945484
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,23 +89,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1438082101915806652}
-  - component: {fileID: 8788856703123429928}
-  - component: {fileID: 1186094020422797187}
+  - component: {fileID: 3941302233154505820}
+  - component: {fileID: 6976086421096318273}
+  - component: {fileID: 4594453288912502628}
   m_Layer: 0
   m_Name: Slot_Hair_0_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1438082101915806652
+  m_IsActive: 1
+--- !u!4 &3941302233154505820
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1122397106974297618}
+  m_GameObject: {fileID: 2289801140156945484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.001}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -113,13 +113,13 @@ Transform:
   m_Father: {fileID: 3527791176232070798}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &8788856703123429928
+--- !u!23 &6976086421096318273
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1122397106974297618}
+  m_GameObject: {fileID: 2289801140156945484}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -152,15 +152,15 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1186094020422797187
+--- !u!33 &4594453288912502628
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1122397106974297618}
+  m_GameObject: {fileID: 2289801140156945484}
   m_Mesh: {fileID: 0}
 --- !u!1 &3527791176232070787
 GameObject:
@@ -173,6 +173,7 @@ GameObject:
   - component: {fileID: 3527791176232070798}
   - component: {fileID: 3527791176232070785}
   - component: {fileID: 3527791176232070784}
+  - component: {fileID: 2148501052991083716}
   m_Layer: 0
   m_Name: Hair
   m_TagString: Untagged
@@ -191,9 +192,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5986477297476139689}
-  - {fileID: 1438082101915806652}
-  - {fileID: 5140013533198110821}
+  - {fileID: 8218690572644594596}
+  - {fileID: 3941302233154505820}
+  - {fileID: 6229704764661789903}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -216,7 +217,7 @@ MonoBehaviour:
   animationName: 
   _playTimes: 0
   _timeScale: 1
-  _sortingMode: 0
+  _sortingMode: 1
   _sortingLayerName: Default
   _sortingOrder: 0
   _zSpace: 0
@@ -240,7 +241,18 @@ MonoBehaviour:
   - Slot_Hair_0_
   - Slot_Hair_2_
   dirty: 0
---- !u!1 &5779631557912927500
+--- !u!210 &2148501052991083716
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527791176232070787}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &3661717813462287035
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -248,9 +260,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5986477297476139689}
-  - component: {fileID: 2291515506828908094}
-  - component: {fileID: 1719188461142949035}
+  - component: {fileID: 8218690572644594596}
+  - component: {fileID: 4609774436977090099}
+  - component: {fileID: 4974158762939187229}
   m_Layer: 0
   m_Name: Slot_Hair_1_
   m_TagString: Untagged
@@ -258,13 +270,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5986477297476139689
+--- !u!4 &8218690572644594596
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5779631557912927500}
+  m_GameObject: {fileID: 3661717813462287035}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -272,13 +284,13 @@ Transform:
   m_Father: {fileID: 3527791176232070798}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &2291515506828908094
+--- !u!23 &4609774436977090099
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5779631557912927500}
+  m_GameObject: {fileID: 3661717813462287035}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -313,11 +325,11 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1719188461142949035
+--- !u!33 &4974158762939187229
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5779631557912927500}
+  m_GameObject: {fileID: 3661717813462287035}
   m_Mesh: {fileID: 0}

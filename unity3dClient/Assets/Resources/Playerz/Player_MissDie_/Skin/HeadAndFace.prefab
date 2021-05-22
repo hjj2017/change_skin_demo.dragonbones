@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 3527791176232070798}
   - component: {fileID: 3527791176232070785}
   - component: {fileID: 3527791176232070784}
+  - component: {fileID: 6331513141175955004}
   m_Layer: 0
   m_Name: HeadAndFace
   m_TagString: Untagged
@@ -133,7 +134,7 @@ MonoBehaviour:
   animationName: 
   _playTimes: 0
   _timeScale: 1
-  _sortingMode: 0
+  _sortingMode: 1
   _sortingLayerName: Default
   _sortingOrder: 0
   _zSpace: 0
@@ -154,3 +155,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotNames: []
   dirty: 0
+--- !u!210 &6331513141175955004
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527791176232070787}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
