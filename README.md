@@ -27,6 +27,41 @@
 
 ----
 
+另外，官方的代码中有这样几句：
+
+```CSharp
+UnityFactory.factory.LoadDragonBonesData(dragonBonesJSONPath);
+UnityFactory.factory.LoadTextureAtlasData(textureAtlasJSONPath);
+UnityFactory.factory.BuildArmatureComponent("body");
+```
+
+这几句其实我不是很满意。
+
+UnityFactory 拥有一个全局的成员变量 factory，而且还提供了 LoadXxx 函数，
+这让我感觉工程很不可控。
+因为可能会导致资源不被及时释放，
+开发工程师可能会在用完资源之后忘记释放资源……
+而 factory 又是个全局对象，
+这确实是风险太高了！
+
+而如果写成：
+
+```CSharp
+UnityFactory factory = new UnityFactory();
+factory.LoadDragonBonesData(dragonBonesJSONPath);
+factory.LoadTextureAtlasData(textureAtlasJSONPath);
+factory.BuildArmatureComponent("body");
+```
+
+这样就会安心许多。
+因为 factory 只是一个局部变量，
+大概率上不会导致严重问题。
+
+这是从工程角度看代码引起的担忧，
+应该不是所有人都像我一样会产生这样的忧虑……
+
+----
+
 ## 通过元件组织换装资源
 
 在龙骨 5.6.3 版本中，支持元件功能。
